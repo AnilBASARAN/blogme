@@ -10,7 +10,8 @@ export default  async function ProjectsPage() {
 
     return (
     <div className="p-20">
-      <h1 className="mb-8">Projects</h1>
+   
+      <div className="mb-8" >Hello this is list of my repos </div>
       <Suspense fallback={<ProjectListLoading />} >
         <ProjectList />
       </Suspense>
